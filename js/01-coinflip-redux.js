@@ -9,7 +9,7 @@ let coinFlip;
 const playAmt =parseInt(prompt ('How many times would you like to play? Enter a number.'));
 
 // Creat a loop
-for (i = 1; i <= playAmt; i++){
+for (let i = 1; i <= playAmt; i++){
     // Generate a number 0 or 1
     coinFlip = Math.round(Math.random());
 
